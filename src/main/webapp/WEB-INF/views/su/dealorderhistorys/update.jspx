@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_DealOrderHistory" modelAttribute="dealOrderHistory" path="/su/dealorderhistorys" versionField="none" z="e4FpSj3l5vJZMql46GIYGNTKLK4=">
+        <field:select field="dealOrder" id="c_in_dealo_entity_DealOrderHistory_dealOrder" itemValue="id" items="${dealorders}" path="/su/dealorders" z="hGlaZAHc5zyz6tMbhE9YOsbijlE="/>
+        <field:select field="usr" id="c_in_dealo_entity_DealOrderHistory_usr" itemValue="id" items="${usrs}" path="/su/usrs" z="sRRZXldgy+dcJPy26gbd6vc3tU8="/>
+        <field:checkbox field="orderStatus" id="c_in_dealo_entity_DealOrderHistory_orderStatus" z="GcPQtcyOl/SsWmecugpA4KS3lGk="/>
+        <field:input field="attributes" id="c_in_dealo_entity_DealOrderHistory_attributes" z="I308HHDuXj6ZAPb28aENZuQpTck="/>
+        <field:datetime dateTimePattern="${dealOrderHistory_modified_date_format}" field="modified" id="c_in_dealo_entity_DealOrderHistory_modified" required="true" z="HfxQ4xS4ukQU1biK2Bhizky3AUE="/>
+    </form:update>
+</div>

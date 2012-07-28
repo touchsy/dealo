@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_Usr" object="${usr}" path="/su/usrs" z="7Y82pVd4zHp4sk4lH2jbUjNImmY=">
+        <field:display field="email" id="s_in_dealo_entity_Usr_email" object="${usr}" z="eF60ksstcbZg1zR3Ddx4b/DgrOI="/>
+        <field:display field="password" id="s_in_dealo_entity_Usr_password" object="${usr}" z="8pEHsQ4i2OmL7hNW/T0uQMfBOag="/>
+        <field:display field="enabled" id="s_in_dealo_entity_Usr_enabled" object="${usr}" z="Ajk7Fx1znRfZqr6fsFJXlv5DN7Y="/>
+        <field:display field="emailVerified" id="s_in_dealo_entity_Usr_emailVerified" object="${usr}" z="iNSNOVof1YzT7mE5dOSr9ndaDww="/>
+        <field:display field="mobileVerified" id="s_in_dealo_entity_Usr_mobileVerified" object="${usr}" z="6o2TcUzBMiR7QzrAe/HsdAID1P4="/>
+        <field:display field="displayName" id="s_in_dealo_entity_Usr_displayName" object="${usr}" z="AxsCZ+lLJu3hGx/v6eV2IVEdMq8="/>
+        <field:display field="firstName" id="s_in_dealo_entity_Usr_firstName" object="${usr}" z="eU6siJvIr1MSI0xOFB57v5CV6hA="/>
+        <field:display field="middleName" id="s_in_dealo_entity_Usr_middleName" object="${usr}" z="BTI0vpD/F/xQinwvNrgZWNEvCZM="/>
+        <field:display field="lastName" id="s_in_dealo_entity_Usr_lastName" object="${usr}" z="yeNe00ErECtvEQkzdTAR9PR0+2g="/>
+        <field:display field="gender" id="s_in_dealo_entity_Usr_gender" object="${usr}" z="GDudtsTOe1TY0Ji/yB4Q4q0Ur7E="/>
+        <field:display field="mobile" id="s_in_dealo_entity_Usr_mobile" object="${usr}" z="vc2adN+b13F8Vr9f+S6TgSNlS/4="/>
+        <field:display field="mobileVerificationCode" id="s_in_dealo_entity_Usr_mobileVerificationCode" object="${usr}" z="SRW+LyotSPeCAAC7vv/XKrgO1As="/>
+        <field:display field="emailVerificationCode" id="s_in_dealo_entity_Usr_emailVerificationCode" object="${usr}" z="QbcfeV2r/gzjs3mOoaN6rnrezyQ="/>
+        <field:display date="true" dateTimePattern="${usr_modified_date_format}" field="modified" id="s_in_dealo_entity_Usr_modified" object="${usr}" z="K7VY8UTAJmIWQdAQmkdXTHx7wxY="/>
+    </page:show>
+</div>

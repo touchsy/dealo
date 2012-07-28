@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_DealContent" items="${dealcontents}" z="7LFXHT9ZGlW+Gmb2i8IC5R/5VHU=">
+        <table:table data="${dealcontents}" id="l_in_dealo_entity_DealContent" path="/su/dealcontents" z="NoMVgTXDX46Ub8Js+FcNXohm7kU=">
+            <table:column id="c_in_dealo_entity_DealContent_deal" property="deal" z="0zUwfIhOpijPsHz946dWt63wSbs="/>
+            <table:column id="c_in_dealo_entity_DealContent_contentType" property="contentType" z="GikzCG5FruoExAOcdndV28x8o5E="/>
+            <table:column id="c_in_dealo_entity_DealContent_contentPath" property="contentPath" z="05XfhdeX1XUcy77oZoh82EpbmzQ="/>
+            <table:column id="c_in_dealo_entity_DealContent_content" property="content" z="3APrY6pXdyF2arkrgaFdgatc7b4="/>
+            <table:column date="true" dateTimePattern="${dealContent_created_date_format}" id="c_in_dealo_entity_DealContent_created" property="created" z="7xdlWPkm8BKeR2kEvZ1qUsHD1lA="/>
+            <table:column date="true" dateTimePattern="${dealContent_modified_date_format}" id="c_in_dealo_entity_DealContent_modified" property="modified" z="+gbxZ80eNtZd4yVG4NS7T3KHdqU="/>
+        </table:table>
+    </page:list>
+</div>

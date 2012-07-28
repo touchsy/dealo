@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_Deal" object="${deal}" path="/su/deals" z="7SVgO4pkTshRcAW7Kfbde/K48EE=">
+        <field:display field="city" id="s_in_dealo_entity_Deal_city" object="${deal}" z="0HAgb5RF8OJ9fnYYXBpueCJVHYM="/>
+        <field:display field="dealCategory" id="s_in_dealo_entity_Deal_dealCategory" object="${deal}" z="/N5DxWgjUvC/E1J1nMc7PzrTXkI="/>
+        <field:display field="dealDetail" id="s_in_dealo_entity_Deal_dealDetail" object="${deal}" z="5tmxq8+EZLoWiRnKrZRDs76hGjs="/>
+        <field:display field="dealStatus" id="s_in_dealo_entity_Deal_dealStatus" object="${deal}" z="s4lsfatzbuGkA9gvfOeyzXNe+kI="/>
+        <field:display field="vendor" id="s_in_dealo_entity_Deal_vendor" object="${deal}" z="RtJp6gH7lySJUls7ErVIXrPoz9c="/>
+        <field:display field="priority" id="s_in_dealo_entity_Deal_priority" object="${deal}" z="8YmygBCoi12JSgLvn1FbQXDfna8="/>
+        <field:display field="enabled" id="s_in_dealo_entity_Deal_enabled" object="${deal}" z="+RLzpzq6+zu++w/gopJmoOotI1w="/>
+        <field:display field="title" id="s_in_dealo_entity_Deal_title" object="${deal}" z="Y0Xd1v6LnBoBGvuCNOrbCMpUC5k="/>
+        <field:display field="description" id="s_in_dealo_entity_Deal_description" object="${deal}" z="K8FzGY17UkAI2X/DOETEoDPpBUk="/>
+        <field:display field="marketPrice" id="s_in_dealo_entity_Deal_marketPrice" object="${deal}" z="bxhPz+/5Ks0bd0xMwyHyy+XQsgs="/>
+        <field:display field="priceUnit" id="s_in_dealo_entity_Deal_priceUnit" object="${deal}" z="ANnbrPTtFvbILD1BMuYMbgIs8bs="/>
+        <field:display field="sellingPrice" id="s_in_dealo_entity_Deal_sellingPrice" object="${deal}" z="3r8c8kyoUoTIgQTMQwbyk+6tkCw="/>
+        <field:display date="true" dateTimePattern="${deal_starttime_date_format}" field="startTime" id="s_in_dealo_entity_Deal_startTime" object="${deal}" z="IVJy82EMvKeFBvUom1mOfA64j6o="/>
+        <field:display date="true" dateTimePattern="${deal_endtime_date_format}" field="endTime" id="s_in_dealo_entity_Deal_endTime" object="${deal}" z="U1OjQmsDVUxwUcp0pnzW8lzKzEY="/>
+        <field:display date="true" dateTimePattern="${deal_validupto_date_format}" field="validUpto" id="s_in_dealo_entity_Deal_validUpto" object="${deal}" z="/a39vNqXxXEk8Dcnda7PKJnLsv0="/>
+        <field:display field="emailSubject" id="s_in_dealo_entity_Deal_emailSubject" object="${deal}" z="9L9rExHj6rquHIVBQmqo5lW618w="/>
+        <field:display field="totalCoupons" id="s_in_dealo_entity_Deal_totalCoupons" object="${deal}" z="aj6acrkh2fhPQeRoUhi0vOD+XIc="/>
+        <field:display field="minCouponsRequired" id="s_in_dealo_entity_Deal_minCouponsRequired" object="${deal}" z="6IP87/c3uOf0mHCw4IbLuLMD96M="/>
+        <field:display field="couponsSold" id="s_in_dealo_entity_Deal_couponsSold" object="${deal}" z="TZNHbxuDy99QtwxUl2SxdOOiGvU="/>
+        <field:display field="noPromoCode" id="s_in_dealo_entity_Deal_noPromoCode" object="${deal}" z="M9JhrftFffhdZ7TxMa0x4R8XE3k="/>
+        <field:display field="couponPerPerson" id="s_in_dealo_entity_Deal_couponPerPerson" object="${deal}" z="Pkxyf1kgG1JAyBU+NvCgt81BVKk="/>
+        <field:display field="addrRequired" id="s_in_dealo_entity_Deal_addrRequired" object="${deal}" z="ZEKQdvCMFaIVJ3ZEGwcpUnBtowc="/>
+        <field:display field="emailVerificationRequired" id="s_in_dealo_entity_Deal_emailVerificationRequired" object="${deal}" z="uGZa27P2V7mGOCgOWHThjZMEiSw="/>
+        <field:display field="mobileVerificationRequired" id="s_in_dealo_entity_Deal_mobileVerificationRequired" object="${deal}" z="3j9ngaztHiwOuaRQ+yA6cy0b7wk="/>
+        <field:display field="smsText" id="s_in_dealo_entity_Deal_smsText" object="${deal}" z="6ub+vl0cHS48AJPkLqEhTs+U888="/>
+        <field:display field="smsCouponText" id="s_in_dealo_entity_Deal_smsCouponText" object="${deal}" z="WEzAUFBbfOSs6sVlNRadXFQUyS0="/>
+        <field:display field="facebookTitle" id="s_in_dealo_entity_Deal_facebookTitle" object="${deal}" z="vlOm0Yery4Z+JLfN5GdZxxzOZDA="/>
+        <field:display field="twitterTitle" id="s_in_dealo_entity_Deal_twitterTitle" object="${deal}" z="9UStAdcUdyQWoNfLzil/6GP45K4="/>
+        <field:display field="location" id="s_in_dealo_entity_Deal_location" object="${deal}" z="j+eGORPKoT+1nyCKu1IlvsHhpaU="/>
+        <field:display field="dealPrice" id="s_in_dealo_entity_Deal_dealPrice" object="${deal}" z="dQdYJq7LwRFkE8w3ZnSAezheOwk="/>
+        <field:display date="true" dateTimePattern="${deal_modified_date_format}" field="modified" id="s_in_dealo_entity_Deal_modified" object="${deal}" z="H6k7GE/sEAbp/mpMXFzKXv388Gw="/>
+        <field:display field="pageUrl" id="s_in_dealo_entity_Deal_pageUrl" object="${deal}" z="IsjHa9oDw782x9KPjs+tPJPJ7Wk="/>
+        <field:display field="couponType" id="s_in_dealo_entity_Deal_couponType" object="${deal}" z="D3GaaI+NcCtYKpWRhR1JM19CRNA="/>
+    </page:show>
+</div>

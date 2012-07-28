@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_in_dealo_entity_Deal" modelAttribute="deal" path="/su/deals" render="${empty dependencies}" z="P5neO2kSQoDKIZvkGCujGID2TFY=">
+        <field:simple field="dealContents" id="c_in_dealo_entity_Deal_dealContents" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Content" z="r2Nf0DCo/lcWcEMki1KnCKn1ve0="/>
+        <field:simple field="dealOrders" id="c_in_dealo_entity_Deal_dealOrders" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Order" z="rM4sddn8Ee+KnydGyxQmaQ/z6aM="/>
+        <field:select field="city" id="c_in_dealo_entity_Deal_city" itemValue="id" items="${citys}" path="/su/citys" z="kq3S77Bp8rn2fccMO+HBw8V59G4="/>
+        <field:select field="dealCategory" id="c_in_dealo_entity_Deal_dealCategory" itemValue="id" items="${dealcategorys}" path="/su/dealcategorys" z="4g+ZCscez5qByjxJ7Q5mb7VH8us="/>
+        <field:select field="dealDetail" id="c_in_dealo_entity_Deal_dealDetail" itemValue="id" items="${dealdetails}" path="/su/dealdetails" z="ANRdseUdq0n7fwbgeQkqxNllIwE="/>
+        <field:select field="dealStatus" id="c_in_dealo_entity_Deal_dealStatus" itemValue="id" items="${dealstatuses}" path="/su/dealstatuses" z="8MYrsHfR8ft6MHJHxcC8IV9ik68="/>
+        <field:select field="vendor" id="c_in_dealo_entity_Deal_vendor" itemValue="id" items="${vendors}" path="/su/vendors" z="S2X+22wbH3MQfGuZe2PmnyLNhU8="/>
+        <field:input field="priority" id="c_in_dealo_entity_Deal_priority" required="true" validationMessageCode="field_invalid_integer" z="vCM3gTOmqTgzKLkPXzCaKtN0tew="/>
+        <field:checkbox field="enabled" id="c_in_dealo_entity_Deal_enabled" z="Is5emg5FdFLmGlACJ4UhFpE+pw4="/>
+        <field:input field="title" id="c_in_dealo_entity_Deal_title" required="true" z="tSmKBN+drALPF/2JlEcmYmlI14A="/>
+        <field:input field="description" id="c_in_dealo_entity_Deal_description" required="true" z="uxR0DcP5rLGgLF7l7GhfwVwd6Bw="/>
+        <field:input field="marketPrice" id="c_in_dealo_entity_Deal_marketPrice" required="true" validationMessageCode="field_invalid_integer" z="CIH5cTLn8FNMh9Voa+LIPZPBUV4="/>
+        <field:input field="priceUnit" id="c_in_dealo_entity_Deal_priceUnit" required="true" z="mjASLJgA8KtPpON6M1m3dUuYtM0="/>
+        <field:input field="sellingPrice" id="c_in_dealo_entity_Deal_sellingPrice" required="true" validationMessageCode="field_invalid_integer" z="FKnm1IZ5RJ1kySyWWGEIY4rwiMo="/>
+        <field:datetime dateTimePattern="${deal_starttime_date_format}" field="startTime" id="c_in_dealo_entity_Deal_startTime" required="true" z="cAIg6BUjOSP6ssZydachUlvIo78="/>
+        <field:datetime dateTimePattern="${deal_endtime_date_format}" field="endTime" id="c_in_dealo_entity_Deal_endTime" required="true" z="UtDgsheODl9xz/JPeNOV0Ol6vLM="/>
+        <field:datetime dateTimePattern="${deal_validupto_date_format}" field="validUpto" id="c_in_dealo_entity_Deal_validUpto" required="true" z="UvPgeEaLfkZy2DfmxFGCbA7sp60="/>
+        <field:input field="emailSubject" id="c_in_dealo_entity_Deal_emailSubject" required="true" validationMessageCode="field_invalid_email" z="3DU/yd/qyfG4TiL7hNhFqxy0Q+w="/>
+        <field:input field="totalCoupons" id="c_in_dealo_entity_Deal_totalCoupons" validationMessageCode="field_invalid_integer" z="8pFOCFZaE5pt+HEWsNdTxdK+Tfo="/>
+        <field:input field="minCouponsRequired" id="c_in_dealo_entity_Deal_minCouponsRequired" validationMessageCode="field_invalid_integer" z="2McmvlrKbFrN285b6a9Fqc5Z4lU="/>
+        <field:input field="couponsSold" id="c_in_dealo_entity_Deal_couponsSold" validationMessageCode="field_invalid_integer" z="WT5cwovrFPR8amrX3QuNcBndgOE="/>
+        <field:checkbox field="noPromoCode" id="c_in_dealo_entity_Deal_noPromoCode" z="zYhqQqa4x2oDCuQJIAPjXnwdE2M="/>
+        <field:input field="couponPerPerson" id="c_in_dealo_entity_Deal_couponPerPerson" validationMessageCode="field_invalid_integer" z="QVkRh5F3rrkmsf3pOgCT0a9b1xw="/>
+        <field:checkbox field="addrRequired" id="c_in_dealo_entity_Deal_addrRequired" z="pmZe6Wosq5A4JlAq7KTMZq1dx/8="/>
+        <field:checkbox field="emailVerificationRequired" id="c_in_dealo_entity_Deal_emailVerificationRequired" z="74WZRB7wtvseTJ/eeEISw696TrY="/>
+        <field:checkbox field="mobileVerificationRequired" id="c_in_dealo_entity_Deal_mobileVerificationRequired" z="wkXST+sgehy4U2SsM4Jp4Su0Jqo="/>
+        <field:input field="smsText" id="c_in_dealo_entity_Deal_smsText" required="true" z="rP5JGLUTPL0aPur6B/lbk/uzY5Q="/>
+        <field:input field="smsCouponText" id="c_in_dealo_entity_Deal_smsCouponText" required="true" z="eSzXTid4XSH9FS2K7gKshO2hpC8="/>
+        <field:input field="facebookTitle" id="c_in_dealo_entity_Deal_facebookTitle" required="true" z="T1pfftnxGjvHMESMDNPdSZW+VsE="/>
+        <field:input field="twitterTitle" id="c_in_dealo_entity_Deal_twitterTitle" required="true" z="d5TFmozxLc1dLxOMKvTi2Cn5p2U="/>
+        <field:input field="location" id="c_in_dealo_entity_Deal_location" z="lkYvyp5DnIVChcGLAnml+xS8UNE="/>
+        <field:input field="dealPrice" id="c_in_dealo_entity_Deal_dealPrice" required="true" validationMessageCode="field_invalid_integer" z="7nvShYPefzbg8EcnayPKxoN22XA="/>
+        <field:datetime dateTimePattern="${deal_modified_date_format}" field="modified" id="c_in_dealo_entity_Deal_modified" required="true" z="Hx1CVivpBgRg4o4YscztLyJU8fg="/>
+        <field:input field="pageUrl" id="c_in_dealo_entity_Deal_pageUrl" z="V9AGTBK7OV5czxxaSIg1cShcx2Y="/>
+        <field:checkbox field="couponType" id="c_in_dealo_entity_Deal_couponType" z="bMfsJ+Irx+SOmtweupLQgaaBLhs="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_in_dealo_entity_Deal" render="${not empty dependencies}" z="WLm+kG3/WVh0VbviEPdl6y0cUaw="/>
+</div>

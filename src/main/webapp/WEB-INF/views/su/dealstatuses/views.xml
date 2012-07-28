@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="su/dealstatuses/list">
+        <put-attribute name="body" value="/WEB-INF/views/su/dealstatuses/list.jspx"/>
+    </definition>
+<definition extends="default" name="su/dealstatuses/show">
+        <put-attribute name="body" value="/WEB-INF/views/su/dealstatuses/show.jspx"/>
+    </definition>
+<definition extends="default" name="su/dealstatuses/create">
+        <put-attribute name="body" value="/WEB-INF/views/su/dealstatuses/create.jspx"/>
+    </definition>
+<definition extends="default" name="su/dealstatuses/update">
+        <put-attribute name="body" value="/WEB-INF/views/su/dealstatuses/update.jspx"/>
+    </definition>
+</tiles-definitions>

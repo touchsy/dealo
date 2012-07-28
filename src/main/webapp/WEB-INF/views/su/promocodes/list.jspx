@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_PromoCode" items="${promocodes}" z="+wHrBcF/rG3yS1jO74PIUa2bf2U=">
+        <table:table data="${promocodes}" id="l_in_dealo_entity_PromoCode" path="/su/promocodes" z="4ZvXcFCUrouBGMu6mecADyXbVCo=">
+            <table:column id="c_in_dealo_entity_PromoCode_promoCodeType" property="promoCodeType" z="1/9LkG8Xd26xFfDHWZvpJojRoDk="/>
+            <table:column id="c_in_dealo_entity_PromoCode_code" property="code" z="WMvTbK1gPkth+OIixczQ1M0fpd8="/>
+            <table:column id="c_in_dealo_entity_PromoCode_email" property="email" z="P/w6zh1h8YApNYCdEx6Arii8MI8="/>
+            <table:column id="c_in_dealo_entity_PromoCode_mobile" property="mobile" z="WqMWaC6+G58+mLkG24UDt6dHe7s="/>
+            <table:column date="true" dateTimePattern="${promoCode_expdate_date_format}" id="c_in_dealo_entity_PromoCode_expDate" property="expDate" z="NyfMCJTMvnZM3eD8BakQrtQ5peI="/>
+            <table:column id="c_in_dealo_entity_PromoCode_timesUsed" property="timesUsed" z="H2XfyKaHil75sEWl7eykTJcRW2s="/>
+        </table:table>
+    </page:list>
+</div>

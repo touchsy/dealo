@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_MessageTemplate" object="${messagetemplate}" path="/su/messagetemplates" z="WiUgn/sIwb73JdX4oMv1so6Zce4=">
+        <field:display field="name" id="s_in_dealo_entity_MessageTemplate_name" object="${messagetemplate}" z="l7l5ZJ4lRK4hT7ewZ693gctg5dQ="/>
+        <field:display field="subjectTemplate" id="s_in_dealo_entity_MessageTemplate_subjectTemplate" object="${messagetemplate}" z="wP2x8e3lhpSwc5sjaPEFyJcrsuY="/>
+        <field:display field="bodyTemplate" id="s_in_dealo_entity_MessageTemplate_bodyTemplate" object="${messagetemplate}" z="fLabRIq6+6pdbWNyUvVRSNIxFys="/>
+        <field:display date="true" dateTimePattern="${messageTemplate_modified_date_format}" field="modified" id="s_in_dealo_entity_MessageTemplate_modified" object="${messagetemplate}" z="o3wr3zRhbWvnmfeYEAXsqq2XAoY="/>
+    </page:show>
+</div>

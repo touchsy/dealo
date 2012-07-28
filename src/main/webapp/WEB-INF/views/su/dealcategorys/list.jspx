@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_DealCategory" items="${dealcategorys}" z="Z3VvYC45et6C2CztNOP9kIWDesE=">
+        <table:table data="${dealcategorys}" id="l_in_dealo_entity_DealCategory" path="/su/dealcategorys" z="qreziyr9jHDr6NcMKzG7U4JPaHQ=">
+            <table:column id="c_in_dealo_entity_DealCategory_name" property="name" z="zmIN6z1b7w1zQ329/em4l1ng8cE="/>
+            <table:column date="true" dateTimePattern="${dealCategory_created_date_format}" id="c_in_dealo_entity_DealCategory_created" property="created" z="yXahemfK26BoB5a9HxFgUVRsYCY="/>
+            <table:column date="true" dateTimePattern="${dealCategory_modified_date_format}" id="c_in_dealo_entity_DealCategory_modified" property="modified" z="zcU6AZXxgThf3gE3glg0FFetgeE="/>
+        </table:table>
+    </page:list>
+</div>

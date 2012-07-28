@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_DealCategory" object="${dealcategory}" path="/su/dealcategorys" z="ud2eaaMBh5udcTibF/atuv7I4c4=">
+        <field:display field="name" id="s_in_dealo_entity_DealCategory_name" object="${dealcategory}" z="Ie1EPHuXw+U/zfWbWUhd06LBbL8="/>
+        <field:display date="true" dateTimePattern="${dealCategory_modified_date_format}" field="modified" id="s_in_dealo_entity_DealCategory_modified" object="${dealcategory}" z="2tfyZ+aVRVeF9Y9sBQ+mj71ayBY="/>
+    </page:show>
+</div>

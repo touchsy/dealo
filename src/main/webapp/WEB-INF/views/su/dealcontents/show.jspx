@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_DealContent" object="${dealcontent}" path="/su/dealcontents" z="41F8R1hvrY/S3iwXLxnbmCC9hZo=">
+        <field:display field="deal" id="s_in_dealo_entity_DealContent_deal" object="${dealcontent}" z="N2QeKCJmIkNgkl3XHmm/lYQgA5U="/>
+        <field:display field="contentType" id="s_in_dealo_entity_DealContent_contentType" object="${dealcontent}" z="843zHe4FNwNThQrgUzTsTSYUQuw="/>
+        <field:display field="contentPath" id="s_in_dealo_entity_DealContent_contentPath" object="${dealcontent}" z="U+AxvsgDjY6JIppVZoVG6+3REyo="/>
+        <field:display field="content" id="s_in_dealo_entity_DealContent_content" object="${dealcontent}" z="c4Lhdl3i6e0brm2gLwx1gB5Su94="/>
+        <field:display date="true" dateTimePattern="${dealContent_modified_date_format}" field="modified" id="s_in_dealo_entity_DealContent_modified" object="${dealcontent}" z="yNy5Nr4zOCC/VHa9oxk0dkwCg6g="/>
+    </page:show>
+</div>

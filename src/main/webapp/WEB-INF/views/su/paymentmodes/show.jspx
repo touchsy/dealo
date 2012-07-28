@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_PaymentMode" object="${paymentmode}" path="/su/paymentmodes" z="MtcqkvmZ4hxf7GWGpXyoysG0kwc=">
+        <field:display field="name" id="s_in_dealo_entity_PaymentMode_name" object="${paymentmode}" z="gtZdqcjpAuxo6u2innG9XSgTEdA="/>
+        <field:display field="enabled" id="s_in_dealo_entity_PaymentMode_enabled" object="${paymentmode}" z="EwVvOCLB1ddkCvcC+Bu7je/w7KQ="/>
+        <field:display date="true" dateTimePattern="${paymentMode_modified_date_format}" field="modified" id="s_in_dealo_entity_PaymentMode_modified" object="${paymentmode}" z="JFu+n1Du8AH+oPE0qVIPd8ANd4w="/>
+        <field:display field="addrRequired" id="s_in_dealo_entity_PaymentMode_addrRequired" object="${paymentmode}" z="u7AF78hC6TfIWnKqsZpnh8wjykA="/>
+        <field:display field="mobileVerificationRequired" id="s_in_dealo_entity_PaymentMode_mobileVerificationRequired" object="${paymentmode}" z="XeOovr5C2p5DdXy6VG89wnid8qI="/>
+        <field:display field="emailVerificationRequired" id="s_in_dealo_entity_PaymentMode_emailVerificationRequired" object="${paymentmode}" z="cgvxmeOe4iyAj+U8YGI2RKBIQyw="/>
+    </page:show>
+</div>

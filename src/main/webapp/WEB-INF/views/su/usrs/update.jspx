@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_Usr" modelAttribute="usr" path="/su/usrs" versionField="none" z="FURSQANvIFJmlcRDXCT/0zMJ+qk=">
+        <field:simple field="dealOrders" id="c_in_dealo_entity_Usr_dealOrders" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Order" z="FsMDg7iMTgEakIK6fiNyYFAV5KI="/>
+        <field:simple field="dealOrderHistories" id="c_in_dealo_entity_Usr_dealOrderHistories" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Order History" z="a7WOgg35hWzYqt0uNnNk9j6ln/Q="/>
+        <field:simple field="vendors" id="c_in_dealo_entity_Usr_vendors" messageCode="entity_reference_not_managed" messageCodeAttribute="Vendor" z="3vOf4CygBfubjwCem5gapuDwrZs="/>
+        <field:input field="email" id="c_in_dealo_entity_Usr_email" required="true" validationMessageCode="field_invalid_email" z="lGZOTM9638Q5BheXjp323rDw9OI="/>
+        <field:input field="password" id="c_in_dealo_entity_Usr_password" z="qFH8bu4jMMYuV7PipBdeJ7zISs8="/>
+        <field:checkbox field="enabled" id="c_in_dealo_entity_Usr_enabled" z="TXhv+vZH4FcLuFhzvXTSc6f5zjI="/>
+        <field:checkbox field="emailVerified" id="c_in_dealo_entity_Usr_emailVerified" z="d4ll7V5mqVctH7IVf2xqZU/fihQ="/>
+        <field:checkbox field="mobileVerified" id="c_in_dealo_entity_Usr_mobileVerified" z="DnMS8eYyECq2osHv53BqJFSE0GU="/>
+        <field:input field="displayName" id="c_in_dealo_entity_Usr_displayName" z="+eqYRkosnB2xV7Yca/ZJ9tUZJC0="/>
+        <field:input field="firstName" id="c_in_dealo_entity_Usr_firstName" z="vu6SmYEAQR/Ahn8qyyTeL3tLacE="/>
+        <field:input field="middleName" id="c_in_dealo_entity_Usr_middleName" z="9yZJ/LsBzToVeR0lUP5LvZVjzAs="/>
+        <field:input field="lastName" id="c_in_dealo_entity_Usr_lastName" z="Wyk6nU0Xm+VPjvXYfn2wNHdoVG0="/>
+        <field:input field="gender" id="c_in_dealo_entity_Usr_gender" z="n9er/Yv3x/nqA9QTDRltghbqlzc="/>
+        <field:input field="mobile" id="c_in_dealo_entity_Usr_mobile" z="bRgm0zjljh6EZng9JHuLfwFv39E="/>
+        <field:input field="mobileVerificationCode" id="c_in_dealo_entity_Usr_mobileVerificationCode" z="TCg8WkoxItMPtnkzdVHEJBquugA="/>
+        <field:input field="emailVerificationCode" id="c_in_dealo_entity_Usr_emailVerificationCode" validationMessageCode="field_invalid_email" z="8cIfCPa2YmMI51RtSSYX/b/pAu4="/>
+        <field:datetime dateTimePattern="${usr_modified_date_format}" field="modified" id="c_in_dealo_entity_Usr_modified" required="true" z="yCWn+R1QSOHfjtRohUveraUWoQg="/>
+    </form:update>
+</div>

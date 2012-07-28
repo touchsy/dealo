@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_Webcontactform" items="${webcontactforms}" z="LdOQedn8hRXUozzwJ54vBxYyLyE=">
+        <table:table data="${webcontactforms}" id="l_in_dealo_entity_Webcontactform" path="/su/webcontactforms" z="ZjApFRZWaVr2h/lfU3JNHqEyt+8=">
+            <table:column id="c_in_dealo_entity_Webcontactform_name" property="name" z="DfBqEYC2Ln8GVy5q84pK0y7o30s="/>
+            <table:column id="c_in_dealo_entity_Webcontactform_email" property="email" z="/tcmR19ghGkxrW+DYWusJYelapU="/>
+            <table:column id="c_in_dealo_entity_Webcontactform_mobile" property="mobile" z="3SxiNym75yT9fIGEXK72OnwNtNQ="/>
+            <table:column id="c_in_dealo_entity_Webcontactform_orderCode" property="orderCode" z="igkLbfD58NbxE9EHKRUCq3gotUo="/>
+            <table:column date="true" dateTimePattern="${webcontactform_created_date_format}" id="c_in_dealo_entity_Webcontactform_created" property="created" z="l4WnNZvilYIlm079TUCZs9ZawH0="/>
+            <table:column date="true" dateTimePattern="${webcontactform_modified_date_format}" id="c_in_dealo_entity_Webcontactform_modified" property="modified" z="KR8CmNUOZ1LggDEoWszbwENdUPQ="/>
+        </table:table>
+    </page:list>
+</div>

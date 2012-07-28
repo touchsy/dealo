@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_DealOrder" modelAttribute="dealOrder" path="/su/dealorders" versionField="none" z="GzKnkspBUe9liZplGMJafafki/k=">
+        <field:simple field="coupons" id="c_in_dealo_entity_DealOrder_coupons" messageCode="entity_reference_not_managed" messageCodeAttribute="Coupon" z="vnfiFJwIoPeQlgwv4NT5M0vOnRg="/>
+        <field:simple field="dealOrderHistories" id="c_in_dealo_entity_DealOrder_dealOrderHistories" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Order History" z="cTuMcKHok1+yJuhGu48rl+XMUwA="/>
+        <field:select field="deal" id="c_in_dealo_entity_DealOrder_deal" itemValue="id" items="${deals}" path="/su/deals" z="3MXD9d/w2+ZzYLGqil7BKF8gMmM="/>
+        <field:select field="usr" id="c_in_dealo_entity_DealOrder_usr" itemValue="id" items="${usrs}" path="/su/usrs" z="DPACCVjF7O4GvPHSQDjaJeb1tYU="/>
+        <field:select field="paymentMode" id="c_in_dealo_entity_DealOrder_paymentMode" itemValue="id" items="${paymentmodes}" path="/su/paymentmodes" z="JNlWGS3ImuU8cAZwx78QVp5mXhQ="/>
+        <field:select field="paymentGateway" id="c_in_dealo_entity_DealOrder_paymentGateway" itemValue="id" items="${paymentgateways}" path="/su/paymentgateways" z="2jhyf3FHFd62ULo4nwkQQlwvnvI="/>
+        <field:input field="mobile" id="c_in_dealo_entity_DealOrder_mobile" z="Cjk6CaZxW9ztnQVaBwUxkn2XRZo="/>
+        <field:input field="email" id="c_in_dealo_entity_DealOrder_email" validationMessageCode="field_invalid_email" z="GLkx7lWYSxiuOoXPtCtacQi1V3U="/>
+        <field:input field="code" id="c_in_dealo_entity_DealOrder_code" required="true" z="5sXAOMlCr9IbZRVOsT3QItlz2os="/>
+        <field:input field="paymentTxnId" id="c_in_dealo_entity_DealOrder_paymentTxnId" validationMessageCode="field_invalid_integer" z="yu86jJlK/gKf2rwWvXfVGdFku6k="/>
+        <field:input field="pgOutgoingParams" id="c_in_dealo_entity_DealOrder_pgOutgoingParams" z="yNQqgFQFMSZePoaATLlC3e4T4f0="/>
+        <field:input field="pgIncomingParams" id="c_in_dealo_entity_DealOrder_pgIncomingParams" z="V/gXRULXu8Rc5qFXguDK/ilZhZg="/>
+        <field:input field="promoCode" id="c_in_dealo_entity_DealOrder_promoCode" z="CQzaWVxjqvVDUoazZKwZQcUO5qE="/>
+        <field:input field="promoValue" id="c_in_dealo_entity_DealOrder_promoValue" validationMessageCode="field_invalid_integer" z="zP8q4kafZmzLg4NKZvFzknX7zB4="/>
+        <field:input field="pointsRedeemed" id="c_in_dealo_entity_DealOrder_pointsRedeemed" validationMessageCode="field_invalid_integer" z="sLRTkxLvpQtneWgWytSUXv22dMk="/>
+        <field:input field="totalAmount" id="c_in_dealo_entity_DealOrder_totalAmount" required="true" validationMessageCode="field_invalid_integer" z="e47XnjNskWlKARgtjQeyrazV+Iw="/>
+        <field:input field="paidAmount" id="c_in_dealo_entity_DealOrder_paidAmount" validationMessageCode="field_invalid_integer" z="jAoz6Sc3bBvrPl7F7slTf398JiU="/>
+        <field:input field="address1" id="c_in_dealo_entity_DealOrder_address1" z="w4vIqx6nPWAD2iqSaq9FCKGBj64="/>
+        <field:input field="address2" id="c_in_dealo_entity_DealOrder_address2" z="Y7eOLTxH0pv5ttu1vMJSc0OKEbo="/>
+        <field:input field="city" id="c_in_dealo_entity_DealOrder_city" z="gkbWljHmz5ma/JZoFmd/FkM36sw="/>
+        <field:input field="addrstate" id="c_in_dealo_entity_DealOrder_addrstate" z="MZN5v7+anS05oNaOgalzMaiJT+Y="/>
+        <field:input field="country" id="c_in_dealo_entity_DealOrder_country" z="U80DEVD94HzaQ8t/qH9u2QOKtdc="/>
+        <field:input field="postalCode" id="c_in_dealo_entity_DealOrder_postalCode" z="xy71qOR/nhCD0dV+wP0T9lN6UYc="/>
+        <field:input field="status" id="c_in_dealo_entity_DealOrder_status" required="true" validationMessageCode="field_invalid_integer" z="M9FGIuEK0VKmtbIHuzMbfEDwPTo="/>
+        <field:input field="quantity" id="c_in_dealo_entity_DealOrder_quantity" validationMessageCode="field_invalid_integer" z="CQlnAbtEJN9b4O645IhzyVosH6w="/>
+        <field:input field="sellingPrice" id="c_in_dealo_entity_DealOrder_sellingPrice" validationMessageCode="field_invalid_integer" z="nI6AUlYjTapPQE57D9jT2ciOu7g="/>
+        <field:datetime dateTimePattern="${dealOrder_modified_date_format}" field="modified" id="c_in_dealo_entity_DealOrder_modified" required="true" z="0nMH1+FGbPZFQ/eCs75OsqwWsJc="/>
+    </form:update>
+</div>

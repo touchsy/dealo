@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_City" items="${citys}" z="7XH7NXyLlnmpf456qCzLwCGkuIQ=">
+        <table:table data="${citys}" id="l_in_dealo_entity_City" path="/su/citys" z="iYISRSLQIMj6JaRROPalRy9B35s=">
+            <table:column id="c_in_dealo_entity_City_name" property="name" z="tcq6JIBfk4r5GPU4viJoQW/CnGc="/>
+            <table:column id="c_in_dealo_entity_City_priority" property="priority" z="6Sw8/jQl//nCOhlsMnIScbVt20A="/>
+            <table:column id="c_in_dealo_entity_City_enabled" property="enabled" z="E8rG80U3CTjf9/bHuivJ07s2u9Y="/>
+            <table:column date="true" dateTimePattern="${city_created_date_format}" id="c_in_dealo_entity_City_created" property="created" z="sMUE6YqkjU9j1u3Liqgey4s6Kpk="/>
+        </table:table>
+    </page:list>
+</div>

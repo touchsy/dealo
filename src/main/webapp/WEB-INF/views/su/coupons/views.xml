@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="su/coupons/list">
+        <put-attribute name="body" value="/WEB-INF/views/su/coupons/list.jspx"/>
+    </definition>
+<definition extends="default" name="su/coupons/show">
+        <put-attribute name="body" value="/WEB-INF/views/su/coupons/show.jspx"/>
+    </definition>
+<definition extends="default" name="su/coupons/create">
+        <put-attribute name="body" value="/WEB-INF/views/su/coupons/create.jspx"/>
+    </definition>
+<definition extends="default" name="su/coupons/update">
+        <put-attribute name="body" value="/WEB-INF/views/su/coupons/update.jspx"/>
+    </definition>
+</tiles-definitions>

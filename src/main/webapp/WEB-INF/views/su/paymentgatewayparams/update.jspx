@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_PaymentGatewayParam" modelAttribute="paymentGatewayParam" path="/su/paymentgatewayparams" versionField="none" z="UV7PLPhPP/cQs6Q26ncRSKEYYz4=">
+        <field:select field="paymentGateway" id="c_in_dealo_entity_PaymentGatewayParam_paymentGateway" itemValue="id" items="${paymentgateways}" path="/su/paymentgateways" z="mcyNN66grli1nZ32GMg438hbFgo="/>
+        <field:input field="clazz" id="c_in_dealo_entity_PaymentGatewayParam_clazz" z="crkvX9r9oyZNGQl0nnlugk4KoJ4="/>
+        <field:input field="fieldName" id="c_in_dealo_entity_PaymentGatewayParam_fieldName" z="NeHvE2XHDB1rBbcc3x+YO+TqzjM="/>
+        <field:input field="pgfieldName" id="c_in_dealo_entity_PaymentGatewayParam_pgfieldName" z="8EO6E21VP3wsXY2u0KacT2MrdUc="/>
+        <field:input field="fieldDesc" id="c_in_dealo_entity_PaymentGatewayParam_fieldDesc" z="pnXJ+UAqhkfUPB+gOdxKAX48NVI="/>
+        <field:input field="fieldVal" id="c_in_dealo_entity_PaymentGatewayParam_fieldVal" z="pBT6T70qBAUf4xrJMF+gIneEx8Y="/>
+        <field:checkbox field="enabled" id="c_in_dealo_entity_PaymentGatewayParam_enabled" z="OEEwsnqNo5pe3fu2/PHPNR9IGJQ="/>
+        <field:datetime dateTimePattern="${paymentGatewayParam_modified_date_format}" field="modified" id="c_in_dealo_entity_PaymentGatewayParam_modified" required="true" z="v5swGrxNPqKbbw3K/XaMHCXPgD8="/>
+    </form:update>
+</div>

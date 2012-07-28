@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_DealOrderHistory" items="${dealorderhistorys}" z="WZPbWbE+kcXRCPw972rGI7g4k5M=">
+        <table:table data="${dealorderhistorys}" id="l_in_dealo_entity_DealOrderHistory" path="/su/dealorderhistorys" z="6EDSxGewm72jyOFispueGPvVUns=">
+            <table:column id="c_in_dealo_entity_DealOrderHistory_dealOrder" property="dealOrder" z="YyTZcrZb2Qs+qGXa3Qe/bAnZeVk="/>
+            <table:column id="c_in_dealo_entity_DealOrderHistory_usr" property="usr" z="OsXJHZ2jq0Tim/k7XGW3Y07K4sU="/>
+            <table:column id="c_in_dealo_entity_DealOrderHistory_orderStatus" property="orderStatus" z="GlRldyVaGyBFXlL2zkiYAtHdMrE="/>
+            <table:column id="c_in_dealo_entity_DealOrderHistory_attributes" property="attributes" z="5MrG2fXSKUFywOhuzVL/tyKF2fI="/>
+            <table:column date="true" dateTimePattern="${dealOrderHistory_created_date_format}" id="c_in_dealo_entity_DealOrderHistory_created" property="created" z="2eG6NgDTBEw4ZuL/DFSKQUmzE8Y="/>
+            <table:column date="true" dateTimePattern="${dealOrderHistory_modified_date_format}" id="c_in_dealo_entity_DealOrderHistory_modified" property="modified" z="dQK9CflC2Dc+V5sVfHvddgsdceU="/>
+        </table:table>
+    </page:list>
+</div>

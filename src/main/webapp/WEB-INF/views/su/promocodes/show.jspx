@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_PromoCode" object="${promocode}" path="/su/promocodes" z="+njaB47DGXsrczR0Ty859251624=">
+        <field:display field="promoCodeType" id="s_in_dealo_entity_PromoCode_promoCodeType" object="${promocode}" z="VqP60X4l/yPh1HNV/swC2JLSlG0="/>
+        <field:display field="code" id="s_in_dealo_entity_PromoCode_code" object="${promocode}" z="UmkzwP4PI1tPp0Q9bVnmaVCN+3U="/>
+        <field:display field="email" id="s_in_dealo_entity_PromoCode_email" object="${promocode}" z="38dUd6l0CyyLPnwZ0NqW9D/0Lng="/>
+        <field:display field="mobile" id="s_in_dealo_entity_PromoCode_mobile" object="${promocode}" z="5U4otXjIV5V9bcRNZNli1tLtSBc="/>
+        <field:display date="true" dateTimePattern="${promoCode_expdate_date_format}" field="expDate" id="s_in_dealo_entity_PromoCode_expDate" object="${promocode}" z="jelqtSM1Akps1Rh/2tAZCr5qiaw="/>
+        <field:display field="timesUsed" id="s_in_dealo_entity_PromoCode_timesUsed" object="${promocode}" z="HsuJET16G/fCT8QYOKUJQ4vAwm4="/>
+        <field:display field="maxCount" id="s_in_dealo_entity_PromoCode_maxCount" object="${promocode}" z="8BasDeWM/TDnYmGRQb+Yi7PKwuA="/>
+        <field:display date="true" dateTimePattern="${promoCode_modified_date_format}" field="modified" id="s_in_dealo_entity_PromoCode_modified" object="${promocode}" z="obr20t+31G8fPKCkrHTBZe0qp0Q="/>
+    </page:show>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_DealDetail" object="${dealdetail}" path="/su/dealdetails" z="39vhir18wdbhyXTITBR3e0ScYsI=">
+        <field:display field="metaTags" id="s_in_dealo_entity_DealDetail_metaTags" object="${dealdetail}" z="uTZZ/+gZUA/m/8jQOHNotWtgRp4="/>
+        <field:display field="pageTitle" id="s_in_dealo_entity_DealDetail_pageTitle" object="${dealdetail}" z="qD53VMRPJpyBmoh1dYp3NEtogvg="/>
+        <field:display field="subtitle" id="s_in_dealo_entity_DealDetail_subtitle" object="${dealdetail}" z="rFIsKdPGwvy1m/+YpdHBfpY8BHw="/>
+        <field:display field="discountText" id="s_in_dealo_entity_DealDetail_discountText" object="${dealdetail}" z="JHhI7GvP5y9iwpM3D/FtiohDBW8="/>
+        <field:display field="highlights" id="s_in_dealo_entity_DealDetail_highlights" object="${dealdetail}" z="X6ahEW4o9cFuNkweSYdXQ+q0x7g="/>
+        <field:display field="aboutDeal" id="s_in_dealo_entity_DealDetail_aboutDeal" object="${dealdetail}" z="Woeh3MIzxOYxkDmpa51l5/zcuYs="/>
+        <field:display field="aboutProject" id="s_in_dealo_entity_DealDetail_aboutProject" object="${dealdetail}" z="Km+ual9JzXgSks4vifso6x7HZeQ="/>
+        <field:display field="aboutSupplier" id="s_in_dealo_entity_DealDetail_aboutSupplier" object="${dealdetail}" z="+FP27Sc+m5a3aeKgi7y7TH+vONQ="/>
+        <field:display field="locationHighlights" id="s_in_dealo_entity_DealDetail_locationHighlights" object="${dealdetail}" z="SYBXzgEukVNKYgwUlV02nst47yk="/>
+        <field:display field="externalLink" id="s_in_dealo_entity_DealDetail_externalLink" object="${dealdetail}" z="0UCGlOBrGrtwPmHZs6xdFrlGCf0="/>
+        <field:display field="image1" id="s_in_dealo_entity_DealDetail_image1" object="${dealdetail}" z="2DvlxWGXoVm0twVKqoNaPvMJsHU="/>
+        <field:display field="image2" id="s_in_dealo_entity_DealDetail_image2" object="${dealdetail}" z="rLeH27AvlzEN/jOa3Sdz2v/pxuY="/>
+        <field:display field="image3" id="s_in_dealo_entity_DealDetail_image3" object="${dealdetail}" z="3hOZD4x8dzT/PcCrgJxjfjHfYdg="/>
+        <field:display field="image4" id="s_in_dealo_entity_DealDetail_image4" object="${dealdetail}" z="ME/5+RERhcbuBkaEtsOIq7dK3Ks="/>
+        <field:display field="thumbnail" id="s_in_dealo_entity_DealDetail_thumbnail" object="${dealdetail}" z="w+gkch6u9pCLAhsKdBPWwOrB1VY="/>
+        <field:display date="true" dateTimePattern="${dealDetail_modified_date_format}" field="modified" id="s_in_dealo_entity_DealDetail_modified" object="${dealdetail}" z="D1L75ixX0Rhh8UpWUzeJ3nSVUIo="/>
+        <field:display field="location" id="s_in_dealo_entity_DealDetail_location" object="${dealdetail}" z="vpdLKyAqxkcAasKh1T5uNMV6s4E="/>
+        <field:display field="fineprints" id="s_in_dealo_entity_DealDetail_fineprints" object="${dealdetail}" z="zwwfg2HRuBBmOsfl5XEmiqD7RIk="/>
+    </page:show>
+</div>

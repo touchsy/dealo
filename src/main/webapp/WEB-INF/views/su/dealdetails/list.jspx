@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_DealDetail" items="${dealdetails}" z="oBnBGNCmVffl+74KcTDw1EmMdDk=">
+        <table:table data="${dealdetails}" id="l_in_dealo_entity_DealDetail" path="/su/dealdetails" z="qB6eEjvLDYBBsrAnzTMVymkj9M4=">
+            <table:column id="c_in_dealo_entity_DealDetail_metaTags" property="metaTags" z="sjcUMJMh56Cr6SPWfGdVg/0aKuM="/>
+            <table:column id="c_in_dealo_entity_DealDetail_pageTitle" property="pageTitle" z="N/oNsV3g+CcqnaBy5vgcKDKuIn8="/>
+            <table:column id="c_in_dealo_entity_DealDetail_subtitle" property="subtitle" z="5Bo5N2dwYtxU6a3VRbQRpjbxAL4="/>
+            <table:column id="c_in_dealo_entity_DealDetail_discountText" property="discountText" z="m9neFzmfKWGWCd3nFWl/sNYcZ94="/>
+            <table:column id="c_in_dealo_entity_DealDetail_highlights" property="highlights" z="aNTMdlPoQv0j8kLutc2ElYXBgvw="/>
+        </table:table>
+    </page:list>
+</div>

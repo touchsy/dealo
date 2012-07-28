@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_PaymentGatewayParam" items="${paymentgatewayparams}" z="75IlsHNRBwKZ09v7zeqxdrCS0Gs=">
+        <table:table data="${paymentgatewayparams}" id="l_in_dealo_entity_PaymentGatewayParam" path="/su/paymentgatewayparams" z="ao0s1BmIEJa467LToeuZytdrk84=">
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_paymentGateway" property="paymentGateway" z="7HZdL6/9nYn54HkDUd30L7bmjFc="/>
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_clazz" property="clazz" z="KLDQvAn2HnKspAjTuUCX9sjwlVE="/>
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_fieldName" property="fieldName" z="g6b5YV9uBUKyBzbKRf3e5aRbVXA="/>
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_pgfieldName" property="pgfieldName" z="3eLr62pqIVt1c4F6OhjmP46cw+g="/>
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_fieldDesc" property="fieldDesc" z="5xNEWbFsPMXL6v2qaL1AlCluICg="/>
+            <table:column id="c_in_dealo_entity_PaymentGatewayParam_fieldVal" property="fieldVal" z="tVt1ZvBWaNiGSKprVyaYpJZKZFs="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_City" modelAttribute="city" path="/su/citys" versionField="none" z="okGPwuFEhNdtdegj9w8py96RRug=">
+        <field:simple field="deals" id="c_in_dealo_entity_City_deals" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal" z="qLd2cQwPN9tMCqXiNO047/In8YE="/>
+        <field:simple field="subscribers" id="c_in_dealo_entity_City_subscribers" messageCode="entity_reference_not_managed" messageCodeAttribute="Subscriber" z="4DSArARbtsx+zjGCK7s7/GIKQ1I="/>
+        <field:input field="name" id="c_in_dealo_entity_City_name" z="x2UQx7F10lXGP4xvchIO/pr0dSo="/>
+        <field:input field="priority" id="c_in_dealo_entity_City_priority" validationMessageCode="field_invalid_integer" z="xAyw51QyhAyop4joBlb1mD+LSGU="/>
+        <field:checkbox field="enabled" id="c_in_dealo_entity_City_enabled" z="P97Nt4t6V4qqBW/OhB7kaX7uiSk="/>
+        <field:datetime dateTimePattern="${city_modified_date_format}" field="modified" id="c_in_dealo_entity_City_modified" required="true" z="5MgcEVW/wbyDAFIKmhHgdE1ynIA="/>
+        <field:input field="url" id="c_in_dealo_entity_City_url" required="true" z="HDNLUybn6BfsTEa4BYiEuDD+5AU="/>
+        <field:input field="pageTitle" id="c_in_dealo_entity_City_pageTitle" z="Bkft47Mya/blEH34wUzyWBsbOW0="/>
+    </form:update>
+</div>

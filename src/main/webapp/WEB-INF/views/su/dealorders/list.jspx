@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_DealOrder" items="${dealorders}" z="rSKC2jH6eUecV7K1dSyUP8oDjMY=">
+        <table:table data="${dealorders}" id="l_in_dealo_entity_DealOrder" path="/su/dealorders" z="8fTykXrGjyq/AL6niq9xm8VuIlo=">
+            <table:column id="c_in_dealo_entity_DealOrder_deal" property="deal" z="SJ86wldtdZx47XamNYxrhto+IQ0="/>
+            <table:column id="c_in_dealo_entity_DealOrder_usr" property="usr" z="1Q4LFsupGAF1m5abUX3SsM7zBkI="/>
+            <table:column id="c_in_dealo_entity_DealOrder_paymentMode" property="paymentMode" z="JS1vW03zNmDYTKvqwi7wvSwfyxM="/>
+            <table:column id="c_in_dealo_entity_DealOrder_paymentGateway" property="paymentGateway" z="Xy7aWxcCsm4jPTNhjRrz0qE9vic="/>
+        </table:table>
+    </page:list>
+</div>

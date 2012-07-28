@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_PromoCodeType" modelAttribute="promoCodeType" path="/su/promocodetypes" versionField="none" z="LvpT5UmLWKvZZu69mCLG2e2leqc=">
+        <field:simple field="promoCodes" id="c_in_dealo_entity_PromoCodeType_promoCodes" messageCode="entity_reference_not_managed" messageCodeAttribute="Promo Code" z="tL60oRPf/ih9/yNkKKU3XpjT0mo="/>
+        <field:input field="name" id="c_in_dealo_entity_PromoCodeType_name" required="true" z="NV+FbriNAYmSEllzG8J6wbo4W8M="/>
+        <field:input field="expressionText" id="c_in_dealo_entity_PromoCodeType_expressionText" required="true" z="ZtbwEEy0KzZoYSOHQsx5eEBp35o="/>
+        <field:datetime dateTimePattern="${promoCodeType_modified_date_format}" field="modified" id="c_in_dealo_entity_PromoCodeType_modified" required="true" z="nvK9qcWoVoZbqGwpksMS1M8Dplk="/>
+    </form:update>
+</div>

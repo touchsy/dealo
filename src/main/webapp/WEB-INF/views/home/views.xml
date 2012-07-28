@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="www" name="home/index">
+        
+    </definition>
+    <definition extends="wwwpage" name="home/contact">
+        <put-attribute name="body" value="/WEB-INF/views/home/contact.jsp" />
+    </definition>
+    <definition extends="wwwpage" name="home/howitworks">
+        <put-attribute name="body" value="/WEB-INF/views/home/howitworks.jsp" />
+    </definition>
+    <definition extends="wwwpage" name="home/checkout">
+        <put-attribute name="body" value="/WEB-INF/views/home/checkout.jsp" />
+    </definition>
+    <definition extends="wwwpage" name="home/thanks">
+        <put-attribute name="body" value="/WEB-INF/views/home/thanks.jsp" />
+    </definition>
+    <definition extends="wwwpage" name="home/createDeal">
+        <put-attribute name="body" value="/WEB-INF/views/home/createDeal.jsp" />
+    </definition>
+    <definition extends="wwwpage" name="home/createVendor">
+        <put-attribute name="body" value="/WEB-INF/views/home/createVendor.jsp" />
+    </definition>
+</tiles-definitions>

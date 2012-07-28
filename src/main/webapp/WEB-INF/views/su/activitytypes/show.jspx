@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_ActivityType" object="${activitytype}" path="/su/activitytypes" z="IpjA/5UgUBzabhVvwYSLoahHjnM=">
+        <field:display field="name" id="s_in_dealo_entity_ActivityType_name" object="${activitytype}" z="1WpqAIXVKdkAnYO3QI287yxv5ZI="/>
+        <field:display field="code" id="s_in_dealo_entity_ActivityType_code" object="${activitytype}" z="lCg8fgfmxwYvQDm+Zgg7X1p7G6U="/>
+        <field:display field="enabled" id="s_in_dealo_entity_ActivityType_enabled" object="${activitytype}" z="B4UdLI0FAL53pvdFE94NTT1wwkg="/>
+    </page:show>
+</div>

@@ -1,0 +1,89 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-13 13:00:11
+project --topLevelPackage in.dealo --projectName dealo --java 6 --packaging WAR
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-13 13:00:13
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-13 13:05:35
+jpa setup --provider HIBERNATE --database MYSQL 
+// [failed] database reverse engineer --schema unable-to-obtain-connection --package ~.entity
+addon search --requiresDescription "#jdbcdriver,driverclass:com.mysql.jdbc.Driver"
+addon install bundle --bundleSymbolicName com.mysql.jdbc.Driver
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml.zip
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+addon install bundle --bundleSymbolicName com.mysql.jdbc.Driver
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+addon install id 01
+database reverse engineer --schema no-schema-required --package ~.entity
+repository jpa --entity ~.domain.ActivityType  --interface ~.dao.ActivityTypeDAO
+repository jpa --entity ~.domain.City  --interface ~.dao.CityDAO
+repository jpa --entity ~.domain.Coupon  --interface ~.dao.CouponDAO
+repository jpa --entity ~.domain.Deal  --interface ~.dao.DealDAO
+repository jpa --entity ~.domain.DealCategory  --interface ~.dao.DealCategoryDAO
+repository jpa --entity ~.domain.DealContent  --interface ~.dao.DealContentDAO
+repository jpa --entity ~.domain.DealDetail  --interface ~.dao.DealDetailDAO
+repository jpa --entity ~.domain.DealOrder  --interface ~.dao.DealOrderDAO
+repository jpa --entity ~.domain.DealOrderHistory  --interface ~.dao.DealOrderHistoryDAO
+repository jpa --entity ~.domain.DealStatus  --interface ~.dao.DealStatusDAO
+repository jpa --entity ~.domain.MessageTemplate  --interface ~.dao.MessageTemplateDAO
+repository jpa --entity ~.domain.PaymentGateway  --interface ~.dao.PaymentGatewayDAO
+repository jpa --entity ~.domain.PaymentGatewayParam  --interface ~.dao.PaymentGatewayParamDAO
+repository jpa --entity ~.domain.PaymentMode  --interface ~.dao.PaymentModeDAO
+repository jpa --entity ~.domain.PromoCode  --interface ~.dao.PromoCodeDAO
+repository jpa --entity ~.domain.PromoCodeType  --interface ~.dao.PromoCodeTypeDAO
+repository jpa --entity ~.domain.Subscriber  --interface ~.dao.SubscriberDAO
+repository jpa --entity ~.domain.Usr  --interface ~.dao.UsrDAO
+repository jpa --entity ~.domain.Vendor  --interface ~.dao.VendorDAO
+service --entity ~.domain.ActivityType  --interface ~.svc.ActivityTypeSvc
+service --entity ~.domain.City  --interface ~.svc.CitySvc
+service --entity ~.domain.Coupon  --interface ~.svc.CouponSvc
+service --entity ~.domain.Deal  --interface ~.svc.DealSvc
+service --entity ~.domain.DealCategory  --interface ~.svc.DealCategorySvc
+service --entity ~.domain.DealContent  --interface ~.svc.DealContentSvc
+service --entity ~.domain.DealDetail  --interface ~.svc.DealDetailSvc
+service --entity ~.domain.DealOrder  --interface ~.svc.DealOrderSvc
+service --entity ~.domain.DealOrderHistory  --interface ~.svc.DealOrderHistorySvc
+service --entity ~.domain.DealStatus  --interface ~.svc.DealStatusSvc
+service --entity ~.domain.MessageTemplate  --interface ~.svc.MessageTemplateSvc
+service --entity ~.domain.PaymentGateway  --interface ~.svc.PaymentGatewaySvc
+service --entity ~.domain.PaymentGatewayParam  --interface ~.svc.PaymentGatewayParamSvc
+service --entity ~.domain.PaymentMode  --interface ~.svc.PaymentModeSvc
+service --entity ~.domain.PromoCode  --interface ~.svc.PromoCodeSvc
+service --entity ~.domain.PromoCodeType  --interface ~.svc.PromoCodeTypeSvc
+service --entity ~.domain.Subscriber  --interface ~.svc.SubscriberSvc
+service --entity ~.domain.Usr  --interface ~.svc.UsrSvc
+service --entity ~.domain.Vendor  --interface ~.svc.VendorSvc
+web mvc setup
+security setup
+web mvc all --package in.dealo.web.controller
+logging setup --level INFO 
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-13 20:55:23
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-14 11:08:47
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-14 17:30:58
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-16 12:02:35
+database reverse engineer --schema no-schema-required 
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+repository  jpa --entity ~.entity.Webcontactform  --interface ~.dao.WebcontactformDAO
+service --entity ~.entity.Webcontactform  --interface ~.dao.WebcontactformDAO
+service --entity ~.entity.Webcontactform  --interface ~.svc.WebcontactformSvc
+repository  jpa --entity ~.entity.Webcontactform  --interface ~.dao.WebcontactformDAO
+web mvc all --package in.dealo.web.controller
+database reverse engineer --schema no-schema-required --package ~.entity
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-16 20:38:28
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-17 11:31:22
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-17 12:38:38
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-17 12:38:47
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+database reverse engineer --schema no-schema-required --package ~.entity
+email sender setup --hostServer 192.168.11.13  
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-17 20:35:45
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-18 16:15:16
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-07-18 21:16:55
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-07-19 12:56:47
+database reverse engineer --schema no-schema-required --package ~.entity

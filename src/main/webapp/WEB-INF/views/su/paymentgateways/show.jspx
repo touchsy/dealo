@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_PaymentGateway" object="${paymentgateway}" path="/su/paymentgateways" z="3JrGSHTXmlH2laPPSuBIErXIAF8=">
+        <field:display field="name" id="s_in_dealo_entity_PaymentGateway_name" object="${paymentgateway}" z="ruj/f+G2mCd1YKVlidyNwbsgboE="/>
+        <field:display field="clazz" id="s_in_dealo_entity_PaymentGateway_clazz" object="${paymentgateway}" z="tqSDc8pAG6KRNA2CZvuWO18Hmzg="/>
+        <field:display field="identificationCode" id="s_in_dealo_entity_PaymentGateway_identificationCode" object="${paymentgateway}" z="CpDNh6NjP184NZNHPBnc7haMKlY="/>
+        <field:display field="secretKey" id="s_in_dealo_entity_PaymentGateway_secretKey" object="${paymentgateway}" z="CJwrBK2KPEZW8ViSz+IYoUiohiM="/>
+        <field:display field="redirectUrl" id="s_in_dealo_entity_PaymentGateway_redirectUrl" object="${paymentgateway}" z="BTgZqgrSc/40OLjMwBK55gCmtes="/>
+        <field:display field="returnUrl" id="s_in_dealo_entity_PaymentGateway_returnUrl" object="${paymentgateway}" z="aQOMUaV9dUkM5/RzaalqESbJNEA="/>
+        <field:display field="mode" id="s_in_dealo_entity_PaymentGateway_mode" object="${paymentgateway}" z="q4Lq7oEdfO47Q0rCR7LrkeOwyyE="/>
+        <field:display field="enabled" id="s_in_dealo_entity_PaymentGateway_enabled" object="${paymentgateway}" z="74ZIUqBRAdOHgUfpfDMAMaQBNBc="/>
+        <field:display date="true" dateTimePattern="${paymentGateway_modified_date_format}" field="modified" id="s_in_dealo_entity_PaymentGateway_modified" object="${paymentgateway}" z="MjcL6e8weY/BiMEIBI3UY+tRNOU="/>
+    </page:show>
+</div>

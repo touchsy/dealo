@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_City" object="${city}" path="/su/citys" z="Us3U0sMt3zSc/mr//cthXbKR8qs=">
+        <field:display field="name" id="s_in_dealo_entity_City_name" object="${city}" z="dqXkBYBMMg+x4pUIhUlBJoQLCAo="/>
+        <field:display field="priority" id="s_in_dealo_entity_City_priority" object="${city}" z="u6K5SWSAo1zgGb5sBxVJPQ2wWA0="/>
+        <field:display field="enabled" id="s_in_dealo_entity_City_enabled" object="${city}" z="3y9CXe3BNe3ZFqd662XeDHPjOP4="/>
+        <field:display date="true" dateTimePattern="${city_modified_date_format}" field="modified" id="s_in_dealo_entity_City_modified" object="${city}" z="7KM11EWxHVObF+V9A08Xof7xY2g="/>
+        <field:display field="url" id="s_in_dealo_entity_City_url" object="${city}" z="D8aX88p4bD1Q0YrwlPpMBofwuZw="/>
+        <field:display field="pageTitle" id="s_in_dealo_entity_City_pageTitle" object="${city}" z="NTz0neBM8mPro9MVAw0VT1dpMa4="/>
+    </page:show>
+</div>

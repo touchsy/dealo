@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_in_dealo_entity_Coupon" object="${coupon}" path="/su/coupons" z="jq2Cvc+ipnpMWxN4/yG4VQ99VrQ=">
+        <field:display field="dealOrder" id="s_in_dealo_entity_Coupon_dealOrder" object="${coupon}" z="9MMGRI6GBkm3Fs+3KbhoJok2LqM="/>
+        <field:display field="code" id="s_in_dealo_entity_Coupon_code" object="${coupon}" z="C5qu+1GqkVSPtL70HbqG4j3CTB0="/>
+        <field:display field="consumed" id="s_in_dealo_entity_Coupon_consumed" object="${coupon}" z="Jcl7RNfLbxwRt/l9Ig6pDcdMBK0="/>
+        <field:display date="true" dateTimePattern="${coupon_modified_date_format}" field="modified" id="s_in_dealo_entity_Coupon_modified" object="${coupon}" z="o358yPNy8l+pLQMfF1wuGVebJaA="/>
+    </page:show>
+</div>

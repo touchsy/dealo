@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_in_dealo_entity_Vendor" items="${vendors}" z="7HUYrwfPtuMxuqTLKepiAlEEj2k=">
+        <table:table data="${vendors}" id="l_in_dealo_entity_Vendor" path="/su/vendors" z="QzydQ68bq7AraS/lvt2G5FKalIQ=">
+            <table:column id="c_in_dealo_entity_Vendor_usr" property="usr" z="7i2U1CkYUBmGAuuJOW8vBUrys+I="/>
+            <table:column id="c_in_dealo_entity_Vendor_name" property="name" z="cmJSh2g7OWBcVX9GTjrmWtOgmGY="/>
+            <table:column id="c_in_dealo_entity_Vendor_description" property="description" z="/8F7oNX5ZM/bpnmyR1q0cyvZrQQ="/>
+            <table:column id="c_in_dealo_entity_Vendor_website" property="website" z="KsSykjR6lS/uvbV18cjDiepmeDM="/>
+            <table:column date="true" dateTimePattern="${vendor_created_date_format}" id="c_in_dealo_entity_Vendor_created" property="created" z="vkL0osckImnrWgZwiI+6r70dvnI="/>
+        </table:table>
+    </page:list>
+</div>

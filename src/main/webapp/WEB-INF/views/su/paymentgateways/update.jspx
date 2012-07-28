@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_in_dealo_entity_PaymentGateway" modelAttribute="paymentGateway" path="/su/paymentgateways" versionField="none" z="fz9Qx6pnM8sAUUdyy0WaWC8BeuQ=">
+        <field:simple field="dealOrders" id="c_in_dealo_entity_PaymentGateway_dealOrders" messageCode="entity_reference_not_managed" messageCodeAttribute="Deal Order" z="Kpk6CfBB1/Vqu9+zZFO+5hb0cos="/>
+        <field:simple field="paymentGatewayParams" id="c_in_dealo_entity_PaymentGateway_paymentGatewayParams" messageCode="entity_reference_not_managed" messageCodeAttribute="Payment Gateway Param" z="Mu6fGJV7mSDPghoDhmX55kkfLxo="/>
+        <field:input field="name" id="c_in_dealo_entity_PaymentGateway_name" required="true" z="BXaELJfEBYT44/cOKxmwXxITl9w="/>
+        <field:input field="clazz" id="c_in_dealo_entity_PaymentGateway_clazz" z="L0jAU1x3YC69l/vNY1B3IU3BtwU="/>
+        <field:input field="identificationCode" id="c_in_dealo_entity_PaymentGateway_identificationCode" z="BwQi8d5DhRGpRCWT8iEAfm7vtRw="/>
+        <field:input field="secretKey" id="c_in_dealo_entity_PaymentGateway_secretKey" z="nIzean12zOEA+rrCmGSJubDgqLw="/>
+        <field:input field="redirectUrl" id="c_in_dealo_entity_PaymentGateway_redirectUrl" z="Pfqic2mEGKJVFXf8lWQysn8RmnA="/>
+        <field:input field="returnUrl" id="c_in_dealo_entity_PaymentGateway_returnUrl" z="554s7t7xZL9AEGS7+pOuq/AS0Pc="/>
+        <field:input field="mode" id="c_in_dealo_entity_PaymentGateway_mode" z="y2pzl/tcHU25JBmGq7oNsgXih+4="/>
+        <field:checkbox field="enabled" id="c_in_dealo_entity_PaymentGateway_enabled" z="0Zq0uTWuKkSdB5ySUwqZNoaeiAQ="/>
+        <field:datetime dateTimePattern="${paymentGateway_modified_date_format}" field="modified" id="c_in_dealo_entity_PaymentGateway_modified" required="true" z="EXidl9ZQEOZ2aLvE3xxAoKNbyPQ="/>
+    </form:update>
+</div>

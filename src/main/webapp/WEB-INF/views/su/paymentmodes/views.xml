@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="su/paymentmodes/list">
+        <put-attribute name="body" value="/WEB-INF/views/su/paymentmodes/list.jspx"/>
+    </definition>
+<definition extends="default" name="su/paymentmodes/show">
+        <put-attribute name="body" value="/WEB-INF/views/su/paymentmodes/show.jspx"/>
+    </definition>
+<definition extends="default" name="su/paymentmodes/create">
+        <put-attribute name="body" value="/WEB-INF/views/su/paymentmodes/create.jspx"/>
+    </definition>
+<definition extends="default" name="su/paymentmodes/update">
+        <put-attribute name="body" value="/WEB-INF/views/su/paymentmodes/update.jspx"/>
+    </definition>
+</tiles-definitions>
