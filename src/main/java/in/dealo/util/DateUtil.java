@@ -26,5 +26,6 @@ private static DateUtil instance = null;
 	
 	public Date stringToDate(String date, String pattern){
 		return ddmmyy.parseDateTime(date).toDate();
-	}
+	
+}
 }
