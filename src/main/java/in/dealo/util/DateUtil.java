@@ -21,7 +21,8 @@ private static DateUtil instance = null;
 	}
 	
 	public String dateToString(Date date) {
-		return ddmmyy.print(date.getTime());
+		//this comment
+	    return ddmmyy.print(date.getTime());
 	}
 	
 	public Date stringToDate(String date, String pattern){
